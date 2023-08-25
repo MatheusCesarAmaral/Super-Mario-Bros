@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/script.js" defer></script>
+
+    
+    
+    <style>
+       
+       .score {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+</style>
+
+   
+
+    <title>Mario Brasileiro</title>
+</head>
+<body>
+
+<audio id="background-music" src="./musica/SUPER MARIO BROS MÚSICAS.mp3" autoplay loop></audio>
+<audio id="death-music" src="./musica/morte.mp3"></audio>
+
+<p class="score">Esta é sua pontuação:</p>
+
+<span id="score" class="score"></span> <span id="pontuacao"></span>
+
+<div class="game-board">
+    <img src="./images/clouds.png" class="clouds">
+    <img src="./images/mario.gif" class="mario">
+    <img src="./images/pipe.png" class="pipe">
+</div>
+
+</body>
+</html>

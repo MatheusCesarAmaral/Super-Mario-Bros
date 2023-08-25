@@ -43,7 +43,7 @@ main {
     background: var(--red);
 }
 
-.main__info div button {
+#game {
     background: transparent;
     border: 1px solid var(--green);
 }
